@@ -1,0 +1,35 @@
+/* Reset */
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.header {
+    height: 80px;
+    background-color: #2C3E50;
+}
+
+
+/* MAIN */
+
+.jumbotron {
+    /* debug */
+    height: 200px;
+    background-color: #1ABC9C;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
