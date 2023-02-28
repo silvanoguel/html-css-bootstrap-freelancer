@@ -19,70 +19,86 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-
-        <div class="container d-flex justify-content-between align-items-center">
-            
-            <h1>START BOOTSTRAP</h1>
-            <i class="fa-solid fa-bars d-md-none"></i>
-            <nav class="d-none d-md-block g-2">
-                <ul class="d-flex">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand ms_navbar-brand" href="">START BOOTSTRAP</a>
+                <i class="fa-solid fa-bars"></i></span>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-auto navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link ms_nav-link">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link ms_nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link ms_nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
+            <!-- /Navbar -->
         </div>
-
     </header>
     <!-- HEADER -->
 
     <!-- MAIN -->
     <main>
         <!-- Jumbotron -->
-        <section class="jumbotron">
+        <section class="jumbotron text-center pt-3 pb-3">
             <div class="container">
-                <div>image jumbotron</div>
-                <div><h2>START</h2></div>
+                <div class="jumbotron-image">
+                    <img src="img/avatar.svg" alt="avatar-image">
+                </div>
+                <h1>START BOOTSTRAP</h1>
+                <div class="star white pb-2">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
-
         </section>
         <!-- /Jumbotron -->
 
         <!-- Portfolio -->
-        <section class="portfolio">
+        <section class="portfolio py-3">
 
             <div class="container">
-                <h2>PORTFOLIO</h2>
+
+                <h2 class="d-flex justify-content-center">PORTFOLIO</h2>
+                <div class="star pb-3">
+                    <i class="fa-solid fa-star"></i>
+                </div>
 
                 <div class="row g-2">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/cake.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/circus.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/game.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/safe.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, hic cum ipsum labore nesciunt amet earum nulla magnam consectetur delectus, quas maxime repellendus in fuga perspiciatis expedita itaque rerum.
+                            <img src="img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -92,17 +108,23 @@
 
 
         <!-- About -->
-        <section class="about">
-            <div class="container">
-                <div class="row g-2">
-                    <div class="col-12 col-md-6">
-                        <div class="card about">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique. </div>
-                       </div>
-                    <div class="col-12 col-md-6">
-                        <div class="card about">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique. </div>
-                       </div>
+        <section class="about py-3">
+            <div class="ms_small-container">
+                <div class="container-fluid">
+                    <h2 class="text-center">ABOUT</h2>
+                    <div class="star white pb-3">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique.</p> 
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique.</p>  
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary ms_btn-color mt-4"><i class="fa-solid fa-download"></i> Download</button>
                     </div>
                 </div>
             </div>
@@ -110,33 +132,40 @@
         <!-- /About -->
 
         <!-- Contact Me -->
-        <section class="contact-me">
-            <div class="container">
-                 <h2>Contact me</h2>
-
+        <section class="contact-me py-3 text-center">
+            <div class="ms_small-container">
+                <div class="container-fluid">
+                    <h2>CONTACT ME</h2>
+                    <div class="star pb-3">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
             </div>
-           
-
         </section>
         <!-- /Contact Me -->
-
     </main>
     <!-- MAIN -->
 
     <!-- FOOTER -->
     <footer>
         <!-- Footer top -->
-        <section class="footer-top">
+        <section class="ms_footer-top py-3 text-center">
             <div class="container">
-                <div class="row g-2">
-                    <div class="col-12 col-md-4">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique. 
+                <div class="row row-cols-1 row-cols-md-3 g-3 align-items-center">
+                    <div class="">
+                       <h6>LOCATION</h6>
+                       <span>John Daniel Drive Clark, MO 54242</span> 
                     </div>
-                    <div class="col-12 col-md-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique. 
+                    <div class="">
+                        <h6>AROUND THE WEB</h6>
+                        <span class="around-logo"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="around-logo"><i class="fa-brands fa-google-plus-g"></i></span>
+                        <span class="around-logo"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="around-logo"><i class="fa-brands fa-linkedin-in"></i></span>
                     </div>
-                    <div class="col-12 col-md-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique. 
+                    <div class="">
+                        <h6>ABOUT FREELANCER</h6>
+                        <span>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</span>
                     </div>
                 </div>
             </div>
@@ -146,11 +175,10 @@
 
 
         <!-- Footer bottom -->
-        <section class="footer-bottom">
-            Copywright Your website 2019
-
+        <section class="ms_footer-bottom py-3 text-center">
+            <p>Copyright <span><i class="fa-regular fa-copyright"></i></span> Your website 2019</p> 
         </section>
-
+        <!-- /Footer bottom -->
     </footer>
     <!-- /FOOTER -->
     
