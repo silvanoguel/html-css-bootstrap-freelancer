@@ -15,7 +15,6 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <!-- HEADER -->
     <header class="header">
@@ -62,14 +61,11 @@
 
         <!-- Portfolio -->
         <section class="portfolio py-3">
-
             <div class="container">
-
                 <h2 class="d-flex justify-content-center">PORTFOLIO</h2>
                 <div class="star pb-3">
                     <i class="fa-solid fa-star"></i>
                 </div>
-
                 <div class="row g-2">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
@@ -106,7 +102,6 @@
         </section>
         <!-- /Portfolio -->
 
-
         <!-- About -->
         <section class="about py-3">
             <div class="ms_small-container">
@@ -117,10 +112,10 @@
                     </div>
                     <div class="row g-2">
                         <div class="col-12 col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique.</p> 
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p> 
                         </div>
                         <div class="col-12 col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nulla facere tenetur ut at quo dolores maxime aspernatur magni dolore pariatur modi ab mollitia, ipsum iure. Placeat dolorem fugit similique.</p>  
+                            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point.</p>  
                         </div>
                     </div>
                     <div class="text-center">
@@ -132,13 +127,32 @@
         <!-- /About -->
 
         <!-- Contact Me -->
-        <section class="contact-me py-3 text-center">
+        <section class="contact-me py-3">
             <div class="ms_small-container">
                 <div class="container-fluid">
-                    <h2>CONTACT ME</h2>
+                    <h2 class="text-center">CONTACT ME</h2>
                     <div class="star pb-3">
                         <i class="fa-solid fa-star"></i>
                     </div>
+                    <form>
+                        <div class="">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="name" class="form-control ms_form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="">
+                            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                            <input type="e-mail" class="form-control ms_form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="phone-number" class="form-control ms_form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mesage</label>
+                            <textarea class="form-control ms_form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                          </div>
+                          <button type="send" class="btn btn-primary ms_btn-send">Send</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -149,38 +163,38 @@
     <!-- FOOTER -->
     <footer>
         <!-- Footer top -->
-        <section class="ms_footer-top py-3 text-center">
+        <section class="ms_footer-top py-5 text-center">
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 g-3 align-items-center">
-                    <div class="">
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 col-md-4">
                        <h6>LOCATION</h6>
                        <span>John Daniel Drive Clark, MO 54242</span> 
                     </div>
-                    <div class="">
+                    <div class="col-12 col-md-4">
                         <h6>AROUND THE WEB</h6>
-                        <span class="around-logo"><i class="fa-brands fa-facebook-f"></i></span>
-                        <span class="around-logo"><i class="fa-brands fa-google-plus-g"></i></span>
-                        <span class="around-logo"><i class="fa-brands fa-twitter"></i></span>
-                        <span class="around-logo"><i class="fa-brands fa-linkedin-in"></i></span>
-                    </div>
-                    <div class="">
+                        <div class="social-media">
+                            <span class="around-logo"><i class="fa-brands fa-facebook-f"></i></span>
+                            <span class="around-logo"><i class="fa-brands fa-google-plus-g"></i></span>
+                            <span class="around-logo"><i class="fa-brands fa-twitter"></i></span>
+                            <span class="around-logo"><i class="fa-brands fa-linkedin-in"></i></span>
+                        </div>
+                    </div>    
+                    <div class="col-12 col-md-4">
                         <h6>ABOUT FREELANCER</h6>
-                        <span>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</span>
+                        <span>Freelance is a free to use, open source Bootstrap theme created by <span class="tiffany-text">Start Bootstrap</span>.</span>
                     </div>
                 </div>
             </div>
 
         </section>
         <!-- Footer top -->
-
-
         <!-- Footer bottom -->
-        <section class="ms_footer-bottom py-3 text-center">
-            <p>Copyright <span><i class="fa-regular fa-copyright"></i></span> Your website 2019</p> 
+        <section class="ms_footer-bottom py-3 text-center align-middle">
+            <span>Copyright <span><i class="fa-regular fa-copyright"></i></span> Your website 2019</span> 
         </section>
         <!-- /Footer bottom -->
     </footer>
     <!-- /FOOTER -->
-    
 </body>
 </html>
+

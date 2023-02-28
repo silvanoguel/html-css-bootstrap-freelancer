@@ -1,16 +1,15 @@
 /* Reset */
-
 img {
     max-width: 100%;
 }
 
 /* Utilities */
-
 .ms_small-container {
     width: 60%;
     margin: 0 auto;
     max-width: 720px;
 }
+
 /* HEADER */
 
 .header {
@@ -33,8 +32,15 @@ img {
     color: white;
 }
 
+@media screen and (min-width:768px) {
+    .fa-solid.fa-bars {
+        display: none;
+    }
+}
+
 /* MAIN */
 
+/* Jumbotron */
 .jumbotron {
     /* debug */
     background-color: #1ABC9C;
@@ -55,7 +61,7 @@ img {
 .star.white:before,
 .star.white:after {
   content: "";
-  width: 80px;
+  width: 130px;
   border-bottom: 2px solid white;
   margin: auto;
   margin-left: 10px;
@@ -65,13 +71,14 @@ img {
 .star:before,
 .star:after {
   content: "";
-  width: 80px;
+  width: 100px;
   border-bottom: 2px solid black;
   margin: auto;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+/* About Section */
 .about {
     background-color: #1ABC9C;
     color: white;
@@ -80,28 +87,34 @@ img {
 .about.star i {
     color: white;
 }
-
-.contact-me {
-    /* debug */
-    background-color: grey;
-
-}
-
 .ms_btn-color {
     background-color: rgba(255, 0, 0, 0);
     border-color: white;
 }
 
+/* Contact Me section */
+.ms_form-control {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.ms_btn-send {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
 /* FOOTER */
 
+/* Footer Top */
 .ms_footer-top {
     background-color: #3A546D;
     color: white;
 }
 
-.ms_footer-bottom {
-    background-color: #2C3E50;
-    color: white;
+.tiffany-text {
+    color: #1ABC9C;
 }
 
 .around-logo {
@@ -113,5 +126,10 @@ img {
 .around-logo i {
     height: 20px;
     width: 20px;
+}
 
+/* Footer Bottom */
+.ms_footer-bottom {
+    background-color: #2C3E50;
+    color: white;
 }
